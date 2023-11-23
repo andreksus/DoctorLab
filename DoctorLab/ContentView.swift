@@ -13,6 +13,12 @@ struct ContentView: View {
             HeaderView()
                 .padding(.top, 20)
                 .padding(.horizontal, 24)
+            MainDoctorWidgetView()
+                .padding(.top, 32)
+                .padding(.horizontal, 24)
+            SearchBarView()
+                .padding(.horizontal, 24)
+                .padding(.top, 20)
         }
     }
 }
