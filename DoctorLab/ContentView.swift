@@ -19,6 +19,8 @@ struct ContentView: View {
             SearchBarView()
                 .padding(.horizontal, 24)
                 .padding(.top, 20)
+            CategoriesView()
+                .padding(.top, 24)
         }
     }
 }
