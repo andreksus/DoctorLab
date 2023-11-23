@@ -42,6 +42,7 @@ struct NearDoctorView: View {
                         .resizable()
                         .frame(width: 20, height: 20)
                     Text("\(docData.raiting) (\(docData.reviewsCount) reviews)")
+                        .foregroundColor(Color("ReviewsTextColor"))
                 }
                 Spacer()
                 HStack{
@@ -49,6 +50,7 @@ struct NearDoctorView: View {
                         .resizable()
                         .frame(width: 20, height: 20)
                     Text("Open at \(docData.timeOfReceipt)")
+                        .foregroundColor(Color("OpenAtTextColor"))
                 }
                 Spacer()
             }
