@@ -29,6 +29,7 @@
 		3F6480FF2B0F7B6C00C74CBB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480FE2B0F7B6C00C74CBB /* ProfileView.swift */; };
 		3F6481012B0F7DB900C74CBB /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6481002B0F7DB900C74CBB /* TabModel.swift */; };
 		3F6481032B0F7E1A00C74CBB /* MainTabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6481022B0F7E1A00C74CBB /* MainTabbedView.swift */; };
+		3F6481052B0F850700C74CBB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F6481042B0F850700C74CBB /* README.md */; };
 		3FE21F132B0F18830037C009 /* DoctorLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE21F122B0F18830037C009 /* DoctorLabApp.swift */; };
 		3FE21F152B0F18830037C009 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE21F142B0F18830037C009 /* ContentView.swift */; };
 		3FE21F172B0F18850037C009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE21F162B0F18850037C009 /* Assets.xcassets */; };
@@ -79,6 +80,7 @@
 		3F6480FE2B0F7B6C00C74CBB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		3F6481002B0F7DB900C74CBB /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
 		3F6481022B0F7E1A00C74CBB /* MainTabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbedView.swift; sourceTree = "<group>"; };
+		3F6481042B0F850700C74CBB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3FE21F0F2B0F18830037C009 /* DoctorLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE21F122B0F18830037C009 /* DoctorLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorLabApp.swift; sourceTree = "<group>"; };
 		3FE21F142B0F18830037C009 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				3FE21F122B0F18830037C009 /* DoctorLabApp.swift */,
 				3FE21F162B0F18850037C009 /* Assets.xcassets */,
 				3FE21F182B0F18850037C009 /* Preview Content */,
+				3F6481042B0F850700C74CBB /* README.md */,
 			);
 			path = DoctorLab;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			files = (
 				3F6480C52B0F552900C74CBB /* Poppins in Resources */,
 				3FE21F1A2B0F18850037C009 /* Preview Assets.xcassets in Resources */,
+				3F6481052B0F850700C74CBB /* README.md in Resources */,
 				3FE21F172B0F18850037C009 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
