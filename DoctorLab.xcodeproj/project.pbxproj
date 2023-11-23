@@ -15,6 +15,9 @@
 		3F6480AD2B0F388A00C74CBB /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480AC2B0F388A00C74CBB /* CategoriesModel.swift */; };
 		3F6480AF2B0F38AD00C74CBB /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480AE2B0F38AD00C74CBB /* CategoryView.swift */; };
 		3F6480B12B0F397100C74CBB /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480B02B0F397100C74CBB /* CategoriesView.swift */; };
+		3F6480B32B0F39DF00C74CBB /* NearDoctorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480B22B0F39DF00C74CBB /* NearDoctorModel.swift */; };
+		3F6480B52B0F3A0000C74CBB /* NearDoctorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480B42B0F3A0000C74CBB /* NearDoctorView.swift */; };
+		3F6480B72B0F3A6400C74CBB /* NerDoctorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480B62B0F3A6400C74CBB /* NerDoctorsView.swift */; };
 		3FE21F132B0F18830037C009 /* DoctorLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE21F122B0F18830037C009 /* DoctorLabApp.swift */; };
 		3FE21F152B0F18830037C009 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE21F142B0F18830037C009 /* ContentView.swift */; };
 		3FE21F172B0F18850037C009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE21F162B0F18850037C009 /* Assets.xcassets */; };
@@ -50,6 +53,9 @@
 		3F6480AC2B0F388A00C74CBB /* CategoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesModel.swift; sourceTree = "<group>"; };
 		3F6480AE2B0F38AD00C74CBB /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		3F6480B02B0F397100C74CBB /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		3F6480B22B0F39DF00C74CBB /* NearDoctorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearDoctorModel.swift; sourceTree = "<group>"; };
+		3F6480B42B0F3A0000C74CBB /* NearDoctorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearDoctorView.swift; sourceTree = "<group>"; };
+		3F6480B62B0F3A6400C74CBB /* NerDoctorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NerDoctorsView.swift; sourceTree = "<group>"; };
 		3FE21F0F2B0F18830037C009 /* DoctorLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE21F122B0F18830037C009 /* DoctorLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorLabApp.swift; sourceTree = "<group>"; };
 		3FE21F142B0F18830037C009 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +101,8 @@
 				3F6480AA2B0F381B00C74CBB /* SearchBarView.swift */,
 				3F6480AE2B0F38AD00C74CBB /* CategoryView.swift */,
 				3F6480B02B0F397100C74CBB /* CategoriesView.swift */,
+				3F6480B42B0F3A0000C74CBB /* NearDoctorView.swift */,
+				3F6480B62B0F3A6400C74CBB /* NerDoctorsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -105,6 +113,7 @@
 				3F6480A32B0F368C00C74CBB /* UserModel.swift */,
 				3F6480A62B0F36F000C74CBB /* MainDoctorModel.swift */,
 				3F6480AC2B0F388A00C74CBB /* CategoriesModel.swift */,
+				3F6480B22B0F39DF00C74CBB /* NearDoctorModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -300,13 +309,16 @@
 				3FE21F152B0F18830037C009 /* ContentView.swift in Sources */,
 				3F6480A72B0F36F000C74CBB /* MainDoctorModel.swift in Sources */,
 				3F6480A92B0F378700C74CBB /* MainDoctorWidgetView.swift in Sources */,
+				3F6480B72B0F3A6400C74CBB /* NerDoctorsView.swift in Sources */,
 				3F6480AB2B0F381B00C74CBB /* SearchBarView.swift in Sources */,
 				3F6480A02B0F361300C74CBB /* HeaderView.swift in Sources */,
 				3F6480A42B0F368C00C74CBB /* UserModel.swift in Sources */,
 				3FE21F132B0F18830037C009 /* DoctorLabApp.swift in Sources */,
 				3F6480AD2B0F388A00C74CBB /* CategoriesModel.swift in Sources */,
 				3F6480B12B0F397100C74CBB /* CategoriesView.swift in Sources */,
+				3F6480B32B0F39DF00C74CBB /* NearDoctorModel.swift in Sources */,
 				3F6480AF2B0F38AD00C74CBB /* CategoryView.swift in Sources */,
+				3F6480B52B0F3A0000C74CBB /* NearDoctorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -21,6 +21,9 @@ struct ContentView: View {
                 .padding(.top, 20)
             CategoriesView()
                 .padding(.top, 24)
+            NearDoctorsView()
+                .padding(.top, 32)
+                .padding(.horizontal, 24)
         }
     }
 }
