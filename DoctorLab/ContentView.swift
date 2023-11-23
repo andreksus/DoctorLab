@@ -24,6 +24,8 @@ struct ContentView: View {
             NearDoctorsView()
                 .padding(.top, Paddings.padding32)
                 .padding(.horizontal, Paddings.padding24)
+            MainTabbedView()
+                .padding(.top,Paddings.padding24)
         }
     }
 }

@@ -9,23 +9,23 @@ import SwiftUI
 
 extension MainTabbedView{
     func CustomTabItem(imageName: String, title: String, isActive: Bool) -> some View{
-        HStack(spacing: 10){
+        HStack(spacing: Paddings.padding10){
             Spacer()
             Image(imageName)
                 .resizable()
                 .renderingMode(.template)
-                .foregroundColor(isActive ? .black : .gray)
-                .frame(width: 20, height: 20)
+                .foregroundColor(isActive ? Color("BackTabIcon") : .gray)
+                .frame(width: FrameSize.IconSize24, height: FrameSize.IconSize24)
             if isActive{
                 Text(title)
-                    .font(.system(size: 14))
-                    .foregroundColor(isActive ? .black : .gray)
+                    .font(.system(size: FontSize.MDWidgetH2))
+                    .foregroundColor(isActive ? Color("BackTabIcon") : .gray)
             }
             Spacer()
         }
-        .frame(width: isActive ? .infinity : 60, height: 60)
-        .background(isActive ? .purple.opacity(0.4) : .clear)
-        .cornerRadius(30)
+        .frame(width: isActive ? .infinity : FrameSize.ImageSize60, height: FrameSize.ImageSize60)
+        .background(isActive ? Color("BackTabIcon").opacity(0.2) : .clear)
+        .cornerRadius(FrameSize.Radius12)
     }
 }
 
@@ -45,12 +45,11 @@ struct MainTabbedView: View {
                     }
                 }
             }
-            .padding(6)
+            .padding(Paddings.padding12)
         }
-        .frame(height: 70)
-        .background(.purple.opacity(0.2))
-        .cornerRadius(35)
-        .padding(.horizontal, 26)
+        .frame(height: FrameSize.ImageSize56)
+        .cornerRadius(FrameSize.RadiusSize35)
+        .padding(.horizontal, Paddings.padding25)
     }
 }
 
