@@ -13,14 +13,14 @@ struct HeaderView: View {
             VStack(alignment: .leading){
                 Text("Hello,")
                     .foregroundStyle(Color("HelloColor"))
-                    
+                    .font(.custom(FontPoppins.PoppinsLight, size: FontSize.HeaderH1))
                 Text("Hi \(userData.username)")
-                    .font(.system(size: 20))
+                    .font(.custom("Poppins-Bold", size: FontSize.HeaderH2))
             }
             Spacer()
             Image("HeaderImage")
                 .resizable()
-                .frame(width: 56, height: 56)
+                .frame(width: FrameSize.ImageSize56, height: FrameSize.ImageSize56)
         }
     }
 }

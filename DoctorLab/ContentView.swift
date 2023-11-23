@@ -11,19 +11,19 @@ struct ContentView: View {
     var body: some View {
         ScrollView(){
             HeaderView()
-                .padding(.top, 20)
-                .padding(.horizontal, 24)
+                .padding(.top, Paddings.padding20)
+                .padding(.horizontal, Paddings.padding24)
             MainDoctorWidgetView()
-                .padding(.top, 32)
-                .padding(.horizontal, 24)
+                .padding(.top, Paddings.padding32)
+                .padding(.horizontal, Paddings.padding24)
             SearchBarView()
-                .padding(.horizontal, 24)
-                .padding(.top, 20)
+                .padding(.horizontal, Paddings.padding24)
+                .padding(.top, Paddings.padding20)
             CategoriesView()
-                .padding(.top, 24)
+                .padding(.top, Paddings.padding24)
             NearDoctorsView()
-                .padding(.top, 32)
-                .padding(.horizontal, 24)
+                .padding(.top, Paddings.padding32)
+                .padding(.horizontal, Paddings.padding24)
         }
     }
 }

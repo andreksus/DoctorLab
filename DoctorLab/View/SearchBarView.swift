@@ -9,16 +9,18 @@ import SwiftUI
 
 struct SearchBarView: View {
     var body: some View {
-        HStack(spacing: 12){
+        HStack(spacing: Paddings.padding12){
             Image("SearchImage")
                 .resizable()
-                .frame(width: 24, height: 24)
+                .frame(width: FrameSize.IconSize24, height: FrameSize.IconSize24)
             Text("Search doctor or health issue")
+                .foregroundColor(Color("CategoryColor"))
+                .font(.custom(FontPoppins.PoppinsLight, size: FontSize.SBarH1))
             Spacer()
         }
-        .padding(16)
+        .padding(Paddings.padding16)
         .background(Color("BackCategoryColor"))
-        .cornerRadius(12)
+        .cornerRadius(FrameSize.Radius12)
     }
 }
 

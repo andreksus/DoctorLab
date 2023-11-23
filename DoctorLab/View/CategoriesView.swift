@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CategoriesView: View {
     var body: some View {
-        HStack(spacing: 13){
+        HStack(spacing: Paddings.padding13){
             CategoryView(image: categoryDataCovid.image, title: categoryDataCovid.title)
             CategoryView(image: categoryDataDoctor.image, title: categoryDataDoctor.title)
             CategoryView(image: categoryDataMedicine.image, title: categoryDataMedicine.title)

@@ -12,14 +12,16 @@ struct CategoryView: View {
     let title: String;
     
     var body: some View {
-        VStack(spacing: 8){
+        VStack(spacing: Paddings.padding8){
             Image(image)
                 .resizable()
-                .frame(width: 24, height: 24)
-                .padding(24)
+                .frame(width: FrameSize.IconSize24, height: FrameSize.IconSize24)
+                .padding(Paddings.padding24)
                 .background(Color("BackCategoryColor"))
                 .clipShape(Circle())
             Text("\(title)")
+                .foregroundColor(Color("CategoryColor"))
+                .font(.custom(FontPoppins.PoppinsLight, size: FontSize.CategoryH1))
         }
         
     }

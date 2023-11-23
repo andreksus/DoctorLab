@@ -12,8 +12,9 @@ struct NearDoctorsView: View {
     var body: some View {
         VStack(alignment: .leading){
             Text("Near Doctor")
+                .font(.custom(FontPoppins.PoppinsBold, size: FontSize.MDWidgetH1))
                 .frame(alignment: .leading)
-                .padding(.bottom, 16)
+                .padding(.bottom, Paddings.padding16)
             VStack{
                 NearDoctorView(docData: docBrostito)
                 NearDoctorView(docData: docSyahir)

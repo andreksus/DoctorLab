@@ -13,46 +13,48 @@ struct MainDoctorWidgetView: View {
             HStack{
                 Image("MainDoctorImage")
                     .resizable()
-                    .frame(width: 48, height: 48)
+                    .frame(width: FrameSize.ImageSize48, height:  FrameSize.ImageSize48)
                 VStack(alignment: .leading){
                     Text(mainDoctorData.name)
                         .foregroundStyle(Color.white)
-                        .font(Font.custom("Poppins-Bold", size: 16))
+                        .font(Font.custom(FontPoppins.PoppinsBold, size: FontSize.MDWidgetH1))
                     Spacer()
                     Text(mainDoctorData.jobTitle)
                         .foregroundStyle(Color("GeneralDoctorColor"))
-                        .font(Font.custom("Poppins-ExtraLight", size: 14))
+                        .font(Font.custom(FontPoppins.PoppinsLight, size: FontSize.MDWidgetH2))
                 }
-                .frame(height: 48)
+                .frame(height: FrameSize.ImageSize48)
                 Spacer()
                 Image("MainDoctorCardButtonImage")
 
             }
-            .padding(.bottom, 16)
+            .padding(.bottom, Paddings.padding16)
             Divider()
             HStack(){
                 HStack{
-                    Image("calendarImage")
+                    Image("CalendarImage")
                         .resizable()
-                        .frame(width: 16, height: 16)
+                        .frame(width: FrameSize.IconSize16, height: FrameSize.IconSize16)
                     
                     Text("\(mainDoctorData.dayWeek), \(mainDoctorData.day), \(mainDoctorData.mounth)").foregroundStyle(Color.white)
+                        .font(.custom(FontPoppins.PoppinsLight, size: FontSize.MDWidgetH3))
                 }
                 Spacer()
                 HStack{
-                    Image("calendarImage")
+                    Image("ClockImage")
                         .resizable()
-                        .frame(width: 16, height: 16)
+                        .frame(width: FrameSize.IconSize16, height: FrameSize.IconSize16)
                     
                     Text("\(mainDoctorData.timeOfReceipt)").foregroundStyle(Color.white)
+                        .font(.custom(FontPoppins.PoppinsLight, size: FontSize.MDWidgetH3))
                 }
                 Spacer()
             }
-            .padding(.top, 16)
+            .padding(.top, Paddings.padding16)
         }
-        .padding(20)
+        .padding(Paddings.padding20)
         .background(Color("MainDoctorCardBackgroundColor"))
-        .cornerRadius(12)    }
+        .cornerRadius(FrameSize.Radius12)    }
 }
 
 struct MainDoctorWidgetView_Previews: PreviewProvider {
