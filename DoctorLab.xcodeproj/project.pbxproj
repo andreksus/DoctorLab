@@ -23,6 +23,12 @@
 		3F6480F02B0F58FF00C74CBB /* FontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480EF2B0F58FF00C74CBB /* FontSize.swift */; };
 		3F6480F22B0F5A1300C74CBB /* FrameSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480F12B0F5A1300C74CBB /* FrameSize.swift */; };
 		3F6480F42B0F698A00C74CBB /* PaddingsSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480F32B0F698A00C74CBB /* PaddingsSize.swift */; };
+		3F6480F92B0F7B3E00C74CBB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480F82B0F7B3E00C74CBB /* HomeView.swift */; };
+		3F6480FB2B0F7B4C00C74CBB /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480FA2B0F7B4C00C74CBB /* FavoriteView.swift */; };
+		3F6480FD2B0F7B5A00C74CBB /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480FC2B0F7B5A00C74CBB /* ChatView.swift */; };
+		3F6480FF2B0F7B6C00C74CBB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480FE2B0F7B6C00C74CBB /* ProfileView.swift */; };
+		3F6481012B0F7DB900C74CBB /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6481002B0F7DB900C74CBB /* TabModel.swift */; };
+		3F6481032B0F7E1A00C74CBB /* MainTabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6481022B0F7E1A00C74CBB /* MainTabbedView.swift */; };
 		3FE21F132B0F18830037C009 /* DoctorLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE21F122B0F18830037C009 /* DoctorLabApp.swift */; };
 		3FE21F152B0F18830037C009 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE21F142B0F18830037C009 /* ContentView.swift */; };
 		3FE21F172B0F18850037C009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE21F162B0F18850037C009 /* Assets.xcassets */; };
@@ -67,6 +73,12 @@
 		3F6480EF2B0F58FF00C74CBB /* FontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSize.swift; sourceTree = "<group>"; };
 		3F6480F12B0F5A1300C74CBB /* FrameSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameSize.swift; sourceTree = "<group>"; };
 		3F6480F32B0F698A00C74CBB /* PaddingsSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingsSize.swift; sourceTree = "<group>"; };
+		3F6480F82B0F7B3E00C74CBB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3F6480FA2B0F7B4C00C74CBB /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		3F6480FC2B0F7B5A00C74CBB /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		3F6480FE2B0F7B6C00C74CBB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3F6481002B0F7DB900C74CBB /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
+		3F6481022B0F7E1A00C74CBB /* MainTabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbedView.swift; sourceTree = "<group>"; };
 		3FE21F0F2B0F18830037C009 /* DoctorLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE21F122B0F18830037C009 /* DoctorLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorLabApp.swift; sourceTree = "<group>"; };
 		3FE21F142B0F18830037C009 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +119,7 @@
 		3F64809E2B0F35E000C74CBB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3F6480F72B0F7B1600C74CBB /* TabViews */,
 				3F64809F2B0F361300C74CBB /* HeaderView.swift */,
 				3F6480A82B0F378700C74CBB /* MainDoctorWidgetView.swift */,
 				3F6480AA2B0F381B00C74CBB /* SearchBarView.swift */,
@@ -114,6 +127,7 @@
 				3F6480B02B0F397100C74CBB /* CategoriesView.swift */,
 				3F6480B42B0F3A0000C74CBB /* NearDoctorView.swift */,
 				3F6480B62B0F3A6400C74CBB /* NerDoctorsView.swift */,
+				3F6481022B0F7E1A00C74CBB /* MainTabbedView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -125,6 +139,7 @@
 				3F6480A62B0F36F000C74CBB /* MainDoctorModel.swift */,
 				3F6480AC2B0F388A00C74CBB /* CategoriesModel.swift */,
 				3F6480B22B0F39DF00C74CBB /* NearDoctorModel.swift */,
+				3F6481002B0F7DB900C74CBB /* TabModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -145,6 +160,17 @@
 				3F6480F32B0F698A00C74CBB /* PaddingsSize.swift */,
 			);
 			path = Sizes;
+			sourceTree = "<group>";
+		};
+		3F6480F72B0F7B1600C74CBB /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				3F6480F82B0F7B3E00C74CBB /* HomeView.swift */,
+				3F6480FA2B0F7B4C00C74CBB /* FavoriteView.swift */,
+				3F6480FC2B0F7B5A00C74CBB /* ChatView.swift */,
+				3F6480FE2B0F7B6C00C74CBB /* ProfileView.swift */,
+			);
+			path = TabViews;
 			sourceTree = "<group>";
 		};
 		3FE21F062B0F18830037C009 = {
@@ -344,10 +370,13 @@
 				3FE21F152B0F18830037C009 /* ContentView.swift in Sources */,
 				3F6480F02B0F58FF00C74CBB /* FontSize.swift in Sources */,
 				3F6480F42B0F698A00C74CBB /* PaddingsSize.swift in Sources */,
+				3F6480FD2B0F7B5A00C74CBB /* ChatView.swift in Sources */,
 				3F6480A72B0F36F000C74CBB /* MainDoctorModel.swift in Sources */,
 				3F6480A92B0F378700C74CBB /* MainDoctorWidgetView.swift in Sources */,
 				3F6480B72B0F3A6400C74CBB /* NerDoctorsView.swift in Sources */,
 				3F6480C42B0F531400C74CBB /* FontPoppins.swift in Sources */,
+				3F6480FB2B0F7B4C00C74CBB /* FavoriteView.swift in Sources */,
+				3F6481012B0F7DB900C74CBB /* TabModel.swift in Sources */,
 				3F6480AB2B0F381B00C74CBB /* SearchBarView.swift in Sources */,
 				3F6480A02B0F361300C74CBB /* HeaderView.swift in Sources */,
 				3F6480A42B0F368C00C74CBB /* UserModel.swift in Sources */,
@@ -356,7 +385,10 @@
 				3F6480B12B0F397100C74CBB /* CategoriesView.swift in Sources */,
 				3F6480B32B0F39DF00C74CBB /* NearDoctorModel.swift in Sources */,
 				3F6480AF2B0F38AD00C74CBB /* CategoryView.swift in Sources */,
+				3F6481032B0F7E1A00C74CBB /* MainTabbedView.swift in Sources */,
 				3F6480B52B0F3A0000C74CBB /* NearDoctorView.swift in Sources */,
+				3F6480FF2B0F7B6C00C74CBB /* ProfileView.swift in Sources */,
+				3F6480F92B0F7B3E00C74CBB /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
