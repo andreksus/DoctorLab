@@ -29,7 +29,7 @@ enum TabbedItems: Int, CaseIterable{
         case .home:
             return "HomeImage"
         case .favorite:
-            return "CalendarImage"
+            return "CalendarTabImage"
         case .chat:
             return "ChatImage"
         case .profile:
