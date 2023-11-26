@@ -7,6 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F6480A02B0F361300C74CBB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64809F2B0F361300C74CBB /* HeaderView.swift */; };
+		3F6480A42B0F368C00C74CBB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480A32B0F368C00C74CBB /* UserModel.swift */; };
+		3F6480A72B0F36F000C74CBB /* MainDoctorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480A62B0F36F000C74CBB /* MainDoctorModel.swift */; };
+		3F6480A92B0F378700C74CBB /* MainDoctorWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480A82B0F378700C74CBB /* MainDoctorWidgetView.swift */; };
+		3F6480AB2B0F381B00C74CBB /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480AA2B0F381B00C74CBB /* SearchBarView.swift */; };
+		3F6480AD2B0F388A00C74CBB /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480AC2B0F388A00C74CBB /* CategoriesModel.swift */; };
+		3F6480AF2B0F38AD00C74CBB /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480AE2B0F38AD00C74CBB /* CategoryView.swift */; };
+		3F6480B12B0F397100C74CBB /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480B02B0F397100C74CBB /* CategoriesView.swift */; };
+		3F6480B32B0F39DF00C74CBB /* NearDoctorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480B22B0F39DF00C74CBB /* NearDoctorModel.swift */; };
+		3F6480B52B0F3A0000C74CBB /* NearDoctorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480B42B0F3A0000C74CBB /* NearDoctorView.swift */; };
+		3F6480B72B0F3A6400C74CBB /* NerDoctorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480B62B0F3A6400C74CBB /* NerDoctorsView.swift */; };
+		3F6480C42B0F531400C74CBB /* FontPoppins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480C32B0F531400C74CBB /* FontPoppins.swift */; };
+		3F6480F02B0F58FF00C74CBB /* FontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480EF2B0F58FF00C74CBB /* FontSize.swift */; };
+		3F6480F22B0F5A1300C74CBB /* FrameSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480F12B0F5A1300C74CBB /* FrameSize.swift */; };
+		3F6480F42B0F698A00C74CBB /* PaddingsSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480F32B0F698A00C74CBB /* PaddingsSize.swift */; };
+		3F6480F92B0F7B3E00C74CBB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480F82B0F7B3E00C74CBB /* HomeView.swift */; };
+		3F6480FB2B0F7B4C00C74CBB /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480FA2B0F7B4C00C74CBB /* FavoriteView.swift */; };
+		3F6480FD2B0F7B5A00C74CBB /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480FC2B0F7B5A00C74CBB /* ChatView.swift */; };
+		3F6480FF2B0F7B6C00C74CBB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6480FE2B0F7B6C00C74CBB /* ProfileView.swift */; };
+		3F6481012B0F7DB900C74CBB /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6481002B0F7DB900C74CBB /* TabModel.swift */; };
+		3F6481032B0F7E1A00C74CBB /* MainTabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6481022B0F7E1A00C74CBB /* MainTabbedView.swift */; };
+		3F6481052B0F850700C74CBB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F6481042B0F850700C74CBB /* README.md */; };
+		3FC3DDDE2B10A90D00F7B77A /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDCB2B10A90B00F7B77A /* Poppins-Black.ttf */; };
+		3FC3DDDF2B10A90D00F7B77A /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDCC2B10A90B00F7B77A /* Poppins-SemiBoldItalic.ttf */; };
+		3FC3DDE02B10A90D00F7B77A /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDCD2B10A90B00F7B77A /* Poppins-ThinItalic.ttf */; };
+		3FC3DDE12B10A90D00F7B77A /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDCE2B10A90B00F7B77A /* Poppins-ExtraBoldItalic.ttf */; };
+		3FC3DDE22B10A90D00F7B77A /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDCF2B10A90B00F7B77A /* Poppins-SemiBold.ttf */; };
+		3FC3DDE32B10A90D00F7B77A /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDD02B10A90B00F7B77A /* Poppins-Medium.ttf */; };
+		3FC3DDE42B10A90D00F7B77A /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDD12B10A90B00F7B77A /* Poppins-LightItalic.ttf */; };
+		3FC3DDE52B10A90D00F7B77A /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDD22B10A90C00F7B77A /* Poppins-BlackItalic.ttf */; };
+		3FC3DDE62B10A90D00F7B77A /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDD32B10A90C00F7B77A /* Poppins-Bold.ttf */; };
+		3FC3DDE72B10A90D00F7B77A /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDD42B10A90C00F7B77A /* Poppins-Italic.ttf */; };
+		3FC3DDE82B10A90D00F7B77A /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDD52B10A90C00F7B77A /* Poppins-ExtraBold.ttf */; };
+		3FC3DDE92B10A90D00F7B77A /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDD62B10A90C00F7B77A /* Poppins-MediumItalic.ttf */; };
+		3FC3DDEA2B10A90D00F7B77A /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDD72B10A90C00F7B77A /* Poppins-ExtraLightItalic.ttf */; };
+		3FC3DDEB2B10A90D00F7B77A /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDD82B10A90C00F7B77A /* Poppins-BoldItalic.ttf */; };
+		3FC3DDEC2B10A90D00F7B77A /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDD92B10A90C00F7B77A /* Poppins-Regular.ttf */; };
+		3FC3DDED2B10A90D00F7B77A /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDDA2B10A90C00F7B77A /* Poppins-Thin.ttf */; };
+		3FC3DDEE2B10A90D00F7B77A /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDDB2B10A90C00F7B77A /* OFL.txt */; };
+		3FC3DDEF2B10A90D00F7B77A /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDDC2B10A90C00F7B77A /* Poppins-ExtraLight.ttf */; };
+		3FC3DDF02B10A90D00F7B77A /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC3DDDD2B10A90D00F7B77A /* Poppins-Light.ttf */; };
 		3FE21F132B0F18830037C009 /* DoctorLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE21F122B0F18830037C009 /* DoctorLabApp.swift */; };
 		3FE21F152B0F18830037C009 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE21F142B0F18830037C009 /* ContentView.swift */; };
 		3FE21F172B0F18850037C009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE21F162B0F18850037C009 /* Assets.xcassets */; };
@@ -34,6 +75,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F64809F2B0F361300C74CBB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3F6480A32B0F368C00C74CBB /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		3F6480A62B0F36F000C74CBB /* MainDoctorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDoctorModel.swift; sourceTree = "<group>"; };
+		3F6480A82B0F378700C74CBB /* MainDoctorWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDoctorWidgetView.swift; sourceTree = "<group>"; };
+		3F6480AA2B0F381B00C74CBB /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		3F6480AC2B0F388A00C74CBB /* CategoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesModel.swift; sourceTree = "<group>"; };
+		3F6480AE2B0F38AD00C74CBB /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		3F6480B02B0F397100C74CBB /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		3F6480B22B0F39DF00C74CBB /* NearDoctorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearDoctorModel.swift; sourceTree = "<group>"; };
+		3F6480B42B0F3A0000C74CBB /* NearDoctorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearDoctorView.swift; sourceTree = "<group>"; };
+		3F6480B62B0F3A6400C74CBB /* NerDoctorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NerDoctorsView.swift; sourceTree = "<group>"; };
+		3F6480BA2B0F4FE400C74CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3F6480C32B0F531400C74CBB /* FontPoppins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontPoppins.swift; sourceTree = "<group>"; };
+		3F6480EF2B0F58FF00C74CBB /* FontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSize.swift; sourceTree = "<group>"; };
+		3F6480F12B0F5A1300C74CBB /* FrameSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameSize.swift; sourceTree = "<group>"; };
+		3F6480F32B0F698A00C74CBB /* PaddingsSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingsSize.swift; sourceTree = "<group>"; };
+		3F6480F82B0F7B3E00C74CBB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3F6480FA2B0F7B4C00C74CBB /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		3F6480FC2B0F7B5A00C74CBB /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		3F6480FE2B0F7B6C00C74CBB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3F6481002B0F7DB900C74CBB /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
+		3F6481022B0F7E1A00C74CBB /* MainTabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbedView.swift; sourceTree = "<group>"; };
+		3F6481042B0F850700C74CBB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3FC3DDCB2B10A90B00F7B77A /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		3FC3DDCC2B10A90B00F7B77A /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		3FC3DDCD2B10A90B00F7B77A /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		3FC3DDCE2B10A90B00F7B77A /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		3FC3DDCF2B10A90B00F7B77A /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		3FC3DDD02B10A90B00F7B77A /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		3FC3DDD12B10A90B00F7B77A /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		3FC3DDD22B10A90C00F7B77A /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3FC3DDD32B10A90C00F7B77A /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		3FC3DDD42B10A90C00F7B77A /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		3FC3DDD52B10A90C00F7B77A /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3FC3DDD62B10A90C00F7B77A /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3FC3DDD72B10A90C00F7B77A /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		3FC3DDD82B10A90C00F7B77A /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3FC3DDD92B10A90C00F7B77A /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		3FC3DDDA2B10A90C00F7B77A /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		3FC3DDDB2B10A90C00F7B77A /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		3FC3DDDC2B10A90C00F7B77A /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		3FC3DDDD2B10A90D00F7B77A /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
 		3FE21F0F2B0F18830037C009 /* DoctorLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE21F122B0F18830037C009 /* DoctorLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorLabApp.swift; sourceTree = "<group>"; };
 		3FE21F142B0F18830037C009 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +154,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F64809E2B0F35E000C74CBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F6480F72B0F7B1600C74CBB /* TabViews */,
+				3F64809F2B0F361300C74CBB /* HeaderView.swift */,
+				3F6480A82B0F378700C74CBB /* MainDoctorWidgetView.swift */,
+				3F6480AA2B0F381B00C74CBB /* SearchBarView.swift */,
+				3F6480AE2B0F38AD00C74CBB /* CategoryView.swift */,
+				3F6480B02B0F397100C74CBB /* CategoriesView.swift */,
+				3F6480B42B0F3A0000C74CBB /* NearDoctorView.swift */,
+				3F6480B62B0F3A6400C74CBB /* NerDoctorsView.swift */,
+				3F6481022B0F7E1A00C74CBB /* MainTabbedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3F6480A12B0F364900C74CBB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F6480A32B0F368C00C74CBB /* UserModel.swift */,
+				3F6480A62B0F36F000C74CBB /* MainDoctorModel.swift */,
+				3F6480AC2B0F388A00C74CBB /* CategoriesModel.swift */,
+				3F6480B22B0F39DF00C74CBB /* NearDoctorModel.swift */,
+				3F6481002B0F7DB900C74CBB /* TabModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F6480C02B0F52DC00C74CBB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3F6480C32B0F531400C74CBB /* FontPoppins.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3F6480EE2B0F58B000C74CBB /* Sizes */ = {
+			isa = PBXGroup;
+			children = (
+				3F6480EF2B0F58FF00C74CBB /* FontSize.swift */,
+				3F6480F12B0F5A1300C74CBB /* FrameSize.swift */,
+				3F6480F32B0F698A00C74CBB /* PaddingsSize.swift */,
+			);
+			path = Sizes;
+			sourceTree = "<group>";
+		};
+		3F6480F72B0F7B1600C74CBB /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				3F6480F82B0F7B3E00C74CBB /* HomeView.swift */,
+				3F6480FA2B0F7B4C00C74CBB /* FavoriteView.swift */,
+				3F6480FC2B0F7B5A00C74CBB /* ChatView.swift */,
+				3F6480FE2B0F7B6C00C74CBB /* ProfileView.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+		3FC3DDCA2B10A8F000F7B77A /* PoppinsFonts */ = {
+			isa = PBXGroup;
+			children = (
+				3FC3DDDB2B10A90C00F7B77A /* OFL.txt */,
+				3FC3DDCB2B10A90B00F7B77A /* Poppins-Black.ttf */,
+				3FC3DDD22B10A90C00F7B77A /* Poppins-BlackItalic.ttf */,
+				3FC3DDD32B10A90C00F7B77A /* Poppins-Bold.ttf */,
+				3FC3DDD82B10A90C00F7B77A /* Poppins-BoldItalic.ttf */,
+				3FC3DDD52B10A90C00F7B77A /* Poppins-ExtraBold.ttf */,
+				3FC3DDCE2B10A90B00F7B77A /* Poppins-ExtraBoldItalic.ttf */,
+				3FC3DDDC2B10A90C00F7B77A /* Poppins-ExtraLight.ttf */,
+				3FC3DDD72B10A90C00F7B77A /* Poppins-ExtraLightItalic.ttf */,
+				3FC3DDD42B10A90C00F7B77A /* Poppins-Italic.ttf */,
+				3FC3DDDD2B10A90D00F7B77A /* Poppins-Light.ttf */,
+				3FC3DDD12B10A90B00F7B77A /* Poppins-LightItalic.ttf */,
+				3FC3DDD02B10A90B00F7B77A /* Poppins-Medium.ttf */,
+				3FC3DDD62B10A90C00F7B77A /* Poppins-MediumItalic.ttf */,
+				3FC3DDD92B10A90C00F7B77A /* Poppins-Regular.ttf */,
+				3FC3DDCF2B10A90B00F7B77A /* Poppins-SemiBold.ttf */,
+				3FC3DDCC2B10A90B00F7B77A /* Poppins-SemiBoldItalic.ttf */,
+				3FC3DDDA2B10A90C00F7B77A /* Poppins-Thin.ttf */,
+				3FC3DDCD2B10A90B00F7B77A /* Poppins-ThinItalic.ttf */,
+			);
+			path = PoppinsFonts;
+			sourceTree = "<group>";
+		};
 		3FE21F062B0F18830037C009 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +260,17 @@
 		3FE21F112B0F18830037C009 /* DoctorLab */ = {
 			isa = PBXGroup;
 			children = (
-				3FE21F122B0F18830037C009 /* DoctorLabApp.swift */,
+				3FC3DDCA2B10A8F000F7B77A /* PoppinsFonts */,
+				3F6480EE2B0F58B000C74CBB /* Sizes */,
+				3F6480C02B0F52DC00C74CBB /* Fonts */,
+				3F6480BA2B0F4FE400C74CBB /* Info.plist */,
+				3F6480A12B0F364900C74CBB /* Model */,
+				3F64809E2B0F35E000C74CBB /* View */,
 				3FE21F142B0F18830037C009 /* ContentView.swift */,
+				3FE21F122B0F18830037C009 /* DoctorLabApp.swift */,
 				3FE21F162B0F18850037C009 /* Assets.xcassets */,
 				3FE21F182B0F18850037C009 /* Preview Content */,
+				3F6481042B0F850700C74CBB /* README.md */,
 			);
 			path = DoctorLab;
 			sourceTree = "<group>";
@@ -231,8 +404,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC3DDED2B10A90D00F7B77A /* Poppins-Thin.ttf in Resources */,
+				3FC3DDEA2B10A90D00F7B77A /* Poppins-ExtraLightItalic.ttf in Resources */,
+				3FC3DDDF2B10A90D00F7B77A /* Poppins-SemiBoldItalic.ttf in Resources */,
+				3FC3DDE42B10A90D00F7B77A /* Poppins-LightItalic.ttf in Resources */,
+				3FC3DDEC2B10A90D00F7B77A /* Poppins-Regular.ttf in Resources */,
+				3FC3DDDE2B10A90D00F7B77A /* Poppins-Black.ttf in Resources */,
+				3FC3DDEF2B10A90D00F7B77A /* Poppins-ExtraLight.ttf in Resources */,
 				3FE21F1A2B0F18850037C009 /* Preview Assets.xcassets in Resources */,
+				3FC3DDE92B10A90D00F7B77A /* Poppins-MediumItalic.ttf in Resources */,
+				3FC3DDF02B10A90D00F7B77A /* Poppins-Light.ttf in Resources */,
+				3FC3DDE12B10A90D00F7B77A /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				3FC3DDE02B10A90D00F7B77A /* Poppins-ThinItalic.ttf in Resources */,
+				3FC3DDEE2B10A90D00F7B77A /* OFL.txt in Resources */,
+				3FC3DDE22B10A90D00F7B77A /* Poppins-SemiBold.ttf in Resources */,
+				3FC3DDEB2B10A90D00F7B77A /* Poppins-BoldItalic.ttf in Resources */,
+				3FC3DDE72B10A90D00F7B77A /* Poppins-Italic.ttf in Resources */,
+				3FC3DDE62B10A90D00F7B77A /* Poppins-Bold.ttf in Resources */,
+				3FC3DDE32B10A90D00F7B77A /* Poppins-Medium.ttf in Resources */,
+				3FC3DDE82B10A90D00F7B77A /* Poppins-ExtraBold.ttf in Resources */,
+				3F6481052B0F850700C74CBB /* README.md in Resources */,
 				3FE21F172B0F18850037C009 /* Assets.xcassets in Resources */,
+				3FC3DDE52B10A90D00F7B77A /* Poppins-BlackItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +450,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6480F22B0F5A1300C74CBB /* FrameSize.swift in Sources */,
 				3FE21F152B0F18830037C009 /* ContentView.swift in Sources */,
+				3F6480F02B0F58FF00C74CBB /* FontSize.swift in Sources */,
+				3F6480F42B0F698A00C74CBB /* PaddingsSize.swift in Sources */,
+				3F6480FD2B0F7B5A00C74CBB /* ChatView.swift in Sources */,
+				3F6480A72B0F36F000C74CBB /* MainDoctorModel.swift in Sources */,
+				3F6480A92B0F378700C74CBB /* MainDoctorWidgetView.swift in Sources */,
+				3F6480B72B0F3A6400C74CBB /* NerDoctorsView.swift in Sources */,
+				3F6480C42B0F531400C74CBB /* FontPoppins.swift in Sources */,
+				3F6480FB2B0F7B4C00C74CBB /* FavoriteView.swift in Sources */,
+				3F6481012B0F7DB900C74CBB /* TabModel.swift in Sources */,
+				3F6480AB2B0F381B00C74CBB /* SearchBarView.swift in Sources */,
+				3F6480A02B0F361300C74CBB /* HeaderView.swift in Sources */,
+				3F6480A42B0F368C00C74CBB /* UserModel.swift in Sources */,
 				3FE21F132B0F18830037C009 /* DoctorLabApp.swift in Sources */,
+				3F6480AD2B0F388A00C74CBB /* CategoriesModel.swift in Sources */,
+				3F6480B12B0F397100C74CBB /* CategoriesView.swift in Sources */,
+				3F6480B32B0F39DF00C74CBB /* NearDoctorModel.swift in Sources */,
+				3F6480AF2B0F38AD00C74CBB /* CategoryView.swift in Sources */,
+				3F6481032B0F7E1A00C74CBB /* MainTabbedView.swift in Sources */,
+				3F6480B52B0F3A0000C74CBB /* NearDoctorView.swift in Sources */,
+				3F6480FF2B0F7B6C00C74CBB /* ProfileView.swift in Sources */,
+				3F6480F92B0F7B3E00C74CBB /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +634,7 @@
 				DEVELOPMENT_TEAM = GFT9G3BNCG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoctorLab/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +664,7 @@
 				DEVELOPMENT_TEAM = GFT9G3BNCG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DoctorLab/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
